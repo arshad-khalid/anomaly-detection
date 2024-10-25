@@ -15,27 +15,12 @@ This project demonstrates a real-time data stream generator with anomaly detecti
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/real-time-anomaly-detection.git
-    cd real-time-anomaly-detection
+    git clone https://github.com/arshad-khalid/anomaly-detection.git
     ```
-
-2. Install required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-1. To run the anomaly detection and visualization, execute the following command:
+2. And run the py file:
     ```bash
     python anomaly_detection.py
     ```
 
-2. The program will generate a data stream, detect anomalies using the Z-score method, and visualize the results in real-time.
+3. The program will generate a data stream, detect anomalies using the Z-score method, and visualize the results in real-time.
 
-## Code Breakdown
-
-### 1. Data Stream Generator
-Generates a synthetic data stream with seasonal variation, trend, and noise:
-```python
-def data_stream_generator(num_points=1000):
-    ...
